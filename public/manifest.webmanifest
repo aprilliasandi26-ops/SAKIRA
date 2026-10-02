@@ -1,0 +1,19 @@
+{
+  "name": "SAKIRA DIGITAL - TK DWP Kedanyang",
+  "short_name": "SAKIRA DIGITAL",
+  "description": "Platform digital pembelajaran interaktif, komunikasi guru-orang tua, portofolio karya anak, presensi siswa, dan SAKIRA AI untuk TK DWP Kedanyang.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFFDF7",
+  "theme_color": "#F97316",
+  "orientation": "portrait-primary",
+  "lang": "id",
+  "icons": [
+    {
+      "src": "/sakira-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "SAKIRA DIGITAL - TK DWP Kedanyang",
+  "description": "Platform digital pembelajaran interaktif, komunikasi guru-orang tua, portofolio karya anak, presensi siswa, dan SAKIRA AI untuk TK DWP Kedanyang.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

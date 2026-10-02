@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFEDD5"/>
+      <stop offset="50%" stop-color="#FDBA74"/>
+      <stop offset="100%" stop-color="#EA580C"/>
+    </linearGradient>
+    <linearGradient id="bookGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#0284C7"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#7C2D12" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- Background Card -->
+  <rect width="512" height="512" rx="110" fill="url(#bgGrad)" filter="url(#shadow)"/>
+  
+  <!-- Outer border ring -->
+  <rect x="16" y="16" width="480" height="480" rx="96" fill="none" stroke="#FFFFFF" stroke-width="8" stroke-dasharray="16 12" opacity="0.6"/>
+
+  <!-- Sun rays / sparks -->
+  <circle cx="256" cy="190" r="100" fill="#FEF08A" opacity="0.4"/>
+  <circle cx="390" cy="110" r="18" fill="#FBBF24"/>
+  <path d="M390 85 L390 135 M365 110 L415 110" stroke="#F59E0B" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Cartoon Open Book -->
+  <path d="M120 300 C 180 280, 240 295, 256 315 C 272 295, 332 280, 392 300 L 392 370 C 332 350, 272 365, 256 385 C 240 365, 180 350, 120 370 Z" fill="#FFFFFF" stroke="#0F172A" stroke-width="10" stroke-linejoin="round"/>
+  <path d="M256 315 L 256 385" stroke="#0F172A" stroke-width="8" stroke-linecap="round"/>
+
+  <!-- Smiling face / child star above book -->
+  <circle cx="256" cy="190" r="64" fill="#FDE047" stroke="#0F172A" stroke-width="8"/>
+  <!-- Eyes -->
+  <circle cx="236" cy="180" r="8" fill="#0F172A"/>
+  <circle cx="276" cy="180" r="8" fill="#0F172A"/>
+  <!-- Cheeks -->
+  <circle cx="222" cy="195" r="9" fill="#F87171" opacity="0.8"/>
+  <circle cx="290" cy="195" r="9" fill="#F87171" opacity="0.8"/>
+  <!-- Smile -->
+  <path d="M242 200 Q 256 218 270 200" fill="none" stroke="#0F172A" stroke-width="7" stroke-linecap="round"/>
+  
+  <!-- Graduation cap or party hat -->
+  <polygon points="256,92 210,135 302,135" fill="#3B82F6" stroke="#0F172A" stroke-width="7" stroke-linejoin="round"/>
+  <circle cx="256" cy="92" r="8" fill="#EF4444"/>
+
+  <!-- Text SAKIRA -->
+  <rect x="96" y="405" width="320" height="64" rx="24" fill="#0F172A"/>
+  <text x="256" y="448" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="34" fill="#FFFFFF" text-anchor="middle" letter-spacing="3">SAKIRA</text>
+  <text x="256" y="488" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="800" font-size="14" fill="#FEF08A" text-anchor="middle">TK DWP KEDANYANG</text>
+</svg>
